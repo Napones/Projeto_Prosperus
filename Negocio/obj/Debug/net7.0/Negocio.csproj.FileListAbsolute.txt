@@ -1,0 +1,15 @@
+C:\Users\leona\source\repos\Negocio\bin\Debug\net7.0\Negocio.deps.json
+C:\Users\leona\source\repos\Negocio\bin\Debug\net7.0\Negocio.dll
+C:\Users\leona\source\repos\Negocio\bin\Debug\net7.0\Negocio.pdb
+C:\Users\leona\source\repos\Negocio\bin\Debug\net7.0\Entidade.dll
+C:\Users\leona\source\repos\Negocio\bin\Debug\net7.0\Entidade.pdb
+C:\Users\leona\source\repos\Negocio\obj\Debug\net7.0\Negocio.csproj.AssemblyReference.cache
+C:\Users\leona\source\repos\Negocio\obj\Debug\net7.0\Negocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leona\source\repos\Negocio\obj\Debug\net7.0\Negocio.AssemblyInfoInputs.cache
+C:\Users\leona\source\repos\Negocio\obj\Debug\net7.0\Negocio.AssemblyInfo.cs
+C:\Users\leona\source\repos\Negocio\obj\Debug\net7.0\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\leona\source\repos\Negocio\obj\Debug\net7.0\Negocio.csproj.CopyComplete
+C:\Users\leona\source\repos\Negocio\obj\Debug\net7.0\Negocio.dll
+C:\Users\leona\source\repos\Negocio\obj\Debug\net7.0\refint\Negocio.dll
+C:\Users\leona\source\repos\Negocio\obj\Debug\net7.0\Negocio.pdb
+C:\Users\leona\source\repos\Negocio\obj\Debug\net7.0\ref\Negocio.dll

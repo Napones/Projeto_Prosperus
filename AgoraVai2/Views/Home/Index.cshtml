@@ -1,0 +1,56 @@
+﻿<div class="container">
+    <h1>Bem-vindo(a) à Plataforma <strong>Prosperus</strong>!</h1>
+    <h2>Abaixo há uma mensagem fixada! Copie essa mensagem, clique no botão de redirecionamento do Whatsapp e envie-a para cada contato que você deseja indicar.</h2>
+    <p><br><br>**MENSAGEM A SER ENVIADA PELO INDICADOR**<br></p>
+    <a onclick="HabilitaBotao()" id="whatsapp-share-button" rel="nofollow" target="_blank"></a>
+
+    <form id="myform" action="Home/Create" method="post">
+        <fieldset>
+            <div class="form-group">
+                <label for="nomeIndicador">Nome Completo Do Indicador:</label>
+                <input type="text" id="nomeIndicador" name="nomeIndicador" required disabled>
+            </div>
+
+            <div class="form-group">
+                <label for="telefoneIndicador">Telefone Do Indicador (com DDD):</label>
+                <input type="text" id="telefoneIndicador" name="telefoneIndicador" required disabled>
+            </div>
+
+            <div class="form-group">
+                <label for="nomeCompleto">Nome Completo Do Indicado:</label>
+                <input type="text" id="nome" name="nome" required disabled>
+            </div>
+
+            <div class="form-group">
+                <label for="telefone">Telefone Do Indicado (com DDD):</label>
+                <input type="tel" id="numeroTelefone" name="numeroTelefone" required disabled>
+            </div>
+
+            <div class="form-group">
+                <label for="observacoes">Observações:</label>
+                <input id="observacoes" name="observacoes" rows="4" required disabled>
+            </div>
+
+            <div class="botao">
+                <button disabled type="submit" id="enviarBotao">Enviar</button>
+            </div>
+        </fieldset>
+    </form>
+
+</div>
+
+<script>
+    function HabilitaBotao() {
+        var conteudo = encodeURIComponent(document.title + " " + window.location.href);
+        document.getElementById("whatsapp-share-button").href = "https://api.whatsapp.com/send?text=" + conteudo;
+
+            document.getElementById("nomeIndicador").removeAttribute("disabled");
+            document.getElementById("telefoneIndicador").removeAttribute("disabled");
+            document.getElementById("nome").removeAttribute("disabled");
+            document.getElementById("numeroTelefone").removeAttribute("disabled");
+            document.getElementById("observacoes").removeAttribute("disabled");
+
+            document.getElementById("enviarBotao").removeAttribute("disabled");
+    }
+</script>
+ 

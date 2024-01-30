@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgoraVai2", "AgoraVai2.csproj", "{E74FF3E7-C53F-4BFD-BFE4-2718BD2CAA25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidade", "..\Entidade\Entidade.csproj", "{57A66F4C-DE71-4BBE-8AEB-BE8453916A55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Negocio", "..\Negocio\Negocio.csproj", "{418007BB-2410-408C-901D-D82C58DFE23E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E74FF3E7-C53F-4BFD-BFE4-2718BD2CAA25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E74FF3E7-C53F-4BFD-BFE4-2718BD2CAA25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E74FF3E7-C53F-4BFD-BFE4-2718BD2CAA25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E74FF3E7-C53F-4BFD-BFE4-2718BD2CAA25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57A66F4C-DE71-4BBE-8AEB-BE8453916A55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57A66F4C-DE71-4BBE-8AEB-BE8453916A55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57A66F4C-DE71-4BBE-8AEB-BE8453916A55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57A66F4C-DE71-4BBE-8AEB-BE8453916A55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{418007BB-2410-408C-901D-D82C58DFE23E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{418007BB-2410-408C-901D-D82C58DFE23E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{418007BB-2410-408C-901D-D82C58DFE23E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{418007BB-2410-408C-901D-D82C58DFE23E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {87719985-F19A-4842-AA2D-853021B35665}
+	EndGlobalSection
+EndGlobal
