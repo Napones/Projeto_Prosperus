@@ -43,7 +43,6 @@
     function HabilitaBotao() {
         var conteudo = encodeURIComponent(document.title + " " + window.location.href);
         document.getElementById("whatsapp-share-button").href = "https://api.whatsapp.com/send?text=" + conteudo;
-
             document.getElementById("nomeIndicador").removeAttribute("disabled");
             document.getElementById("telefoneIndicador").removeAttribute("disabled");
             document.getElementById("nome").removeAttribute("disabled");
